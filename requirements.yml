@@ -1,4 +1,4 @@
 ---
 - src: git@github.com:debaj4life/ansible-nexus-role.git
-  name: ansible-role-nexus
+  name: ansible-nexus-role
   scm: git

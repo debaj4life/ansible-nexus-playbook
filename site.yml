@@ -1,4 +1,4 @@
 ---
 - hosts: webserver
   roles: 
-    - ansible-role-nexus
+    - ansible-nexus-role
