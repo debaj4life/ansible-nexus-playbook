@@ -1,0 +1,43 @@
+2024-10-27 17:57:05,204 p=81678 u=tunde n=botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2024-10-27 17:57:06,974 p=81678 u=tunde n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-10-27 17:57:07,275 p=81678 u=tunde n=ansible | ERROR! the role 'ansible-role-nexus' was not found in /home/tunde/devops-project/ansible-nexus-playbook/roles:/home/tunde/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles:/home/tunde/devops-project/ansible-nexus-playbook
+
+The error appears to be in '/home/tunde/devops-project/ansible-nexus-playbook/site.yml': line 4, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  roles:
+    - ansible-role-nexus
+      ^ here
+
+2024-10-27 17:58:26,511 p=82469 u=tunde n=ansible | Starting galaxy role install process
+2024-10-27 17:58:27,827 p=82469 u=tunde n=ansible | [WARNING]: - ansible-role-nexus was NOT installed successfully: - command /usr/bin/git archive --prefix=ansible-role-nexus/ --output=/home/tunde/.ansible/tmp/ansible-
+local-82469t9_h9y3g/tmp8spm3dzm.tar HEAD failed in directory /home/tunde/.ansible/tmp/ansible-local-82469t9_h9y3g/tmphpn_9_dc/ansible-role-nexus (rc=128) - fatal: not a
+valid object name: HEAD
+
+2024-10-27 17:58:27,829 p=82469 u=tunde n=ansible | ERROR! - you can use --ignore-errors to skip failed roles and finish processing the list.
+2024-10-27 17:58:54,570 p=82753 u=tunde n=ansible | Starting galaxy role install process
+2024-10-27 17:58:55,742 p=82753 u=tunde n=ansible | [WARNING]: - ansible-role-nexus was NOT installed successfully: - command /usr/bin/git archive --prefix=ansible-role-nexus/ --output=/home/tunde/.ansible/tmp/ansible-
+local-82753eru8skhz/tmp35lr_uft.tar HEAD failed in directory /home/tunde/.ansible/tmp/ansible-local-82753eru8skhz/tmpram01tni/ansible-role-nexus (rc=128) - fatal: not a
+valid object name: HEAD
+
+2024-10-27 17:58:55,742 p=82753 u=tunde n=ansible | ERROR! - you can use --ignore-errors to skip failed roles and finish processing the list.
+2024-10-27 18:00:53,877 p=83716 u=tunde n=ansible | Starting galaxy role install process
+2024-10-27 18:00:55,130 p=83716 u=tunde n=ansible | [WARNING]: - ansible-role-nexus was NOT installed successfully: - command /usr/bin/git archive --prefix=ansible-role-nexus/ --output=/home/tunde/.ansible/tmp/ansible-
+local-83716gr6pe9xb/tmprya0sq37.tar HEAD failed in directory /home/tunde/.ansible/tmp/ansible-local-83716gr6pe9xb/tmporol5szc/ansible-role-nexus (rc=128) - fatal: not a
+valid object name: HEAD
+
+2024-10-27 18:00:55,131 p=83716 u=tunde n=ansible | ERROR! - you can use --ignore-errors to skip failed roles and finish processing the list.
+2024-10-27 18:05:15,986 p=86036 u=tunde n=ansible | Starting galaxy role install process
+2024-10-27 18:05:17,379 p=86036 u=tunde n=ansible | - extracting ansible-role-nexus to /home/tunde/devops-project/ansible-nexus-playbook/ansible-role-nexus/ansible-role-nexus
+2024-10-27 18:05:17,385 p=86036 u=tunde n=ansible | - ansible-role-nexus was installed successfully
+2024-10-27 18:06:08,141 p=86531 u=tunde n=botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2024-10-27 18:06:08,798 p=86531 u=tunde n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-10-27 18:06:09,078 p=86531 u=tunde n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: webserver
+
+2024-10-27 18:06:09,081 p=86531 u=tunde n=ansible | PLAY [webserver] *************************************************************************************************************************************************************
+2024-10-27 18:06:09,081 p=86531 u=tunde n=ansible | skipping: no hosts matched
+2024-10-27 18:06:09,082 p=86531 u=tunde n=ansible | PLAY RECAP *******************************************************************************************************************************************************************
